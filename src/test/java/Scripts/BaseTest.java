@@ -24,7 +24,7 @@ public class BaseTest {
 
     @Parameters({"browser"})
     public void setupTest(String browser){
-        logger.info("Setting up WebDriver");
+        logger.info("Setting up WebDriver!!");
         DriverFactory driverFactory = new DriverFactory();
         driverFactory.setDriver(browser);
         driver = driverFactory.getDriver();
