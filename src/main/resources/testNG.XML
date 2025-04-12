@@ -1,0 +1,18 @@
+<suite name = "Test Suite">
+<!--    <test name = "Test on firfox">-->
+<!--        <parameter name = "browser" value="${dbrowser}"/>-->
+<!--        <classes>-->
+<!--            <class name = "Scripts.cinemaBooking"/>-->
+<!--&lt;!&ndash;            <methods>&ndash;&gt;-->
+<!--&lt;!&ndash;                <include name = "verifylogin"/>&ndash;&gt;-->
+<!--&lt;!&ndash;            </methods>&ndash;&gt;-->
+<!--&lt;!&ndash;            <class name = "Scripts.Tiki"/>&ndash;&gt;-->
+<!--        </classes>-->
+<!--    </test>-->
+    <test name = "Test on chrome">
+        <parameter name = "browser" value = "Chrome"/>
+        <classes>
+            <class name = "Scripts.cinemaBooking"/>
+        </classes>
+    </test>
+</suite>
